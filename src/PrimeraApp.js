@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 //FC functional components
 
@@ -6,7 +6,13 @@ const  PrimeraApp = () => {
 
 
 
-    return <h1> Hola mundo!!!</h1>
+    return (
+        <Fragment>
+            <h1> Hola mundo!!!</h1>
+            <p>Mi primera aplicación!!</p>
+
+        </Fragment>
+    )
 
 }
 
