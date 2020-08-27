@@ -12,4 +12,4 @@ import './index.css';
 const divRoot = document.querySelector('#root');
 // console.log(divRoot);
 
-ReactDom.render( <PrimeraApp />, divRoot )
+ReactDom.render( <PrimeraApp saludo="Hagale pss" />, divRoot )
