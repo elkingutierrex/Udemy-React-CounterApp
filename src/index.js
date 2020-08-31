@@ -15,4 +15,4 @@ const divRoot = document.querySelector('#root');
 
 // console.log(divRoot);
 
-ReactDom.render( <CounterApp value={ 20 } />, divRoot )
+ReactDom.render( <CounterApp value={ 10 } />, divRoot )
